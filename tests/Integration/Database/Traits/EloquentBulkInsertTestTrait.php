@@ -6,7 +6,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Database\UniqueConstraintViolationException;
 use Illuminate\Tests\Integration\Database\Model\DatabaseEloquentIntegrationUniqueUserUUID;
 
-trait EloquentBulkInsertTest
+trait EloquentBulkInsertTestTrait
 {
     public function testBulkInsertWithNonAutoIncrementingId(): void
     {
